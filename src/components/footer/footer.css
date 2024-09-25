@@ -1,15 +1,16 @@
 #footer {
   display: flex;
+  align-items: center;
   width: 100%;
   height: auto;
-  margin-top: var(--rps-margin-s);
+  margin-top: var(--rps-margin-l);
   margin-bottom: var(--rps-margin-xl);
 }
 
 /*MEDIAS QUERIES*/
 @media (max-width: 550px) {
   #footer {
-    margin-bottom: var(--rps-margin-s);
+    margin-bottom: var(--rps-margin-m);
   }
 }
 

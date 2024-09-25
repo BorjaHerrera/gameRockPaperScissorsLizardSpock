@@ -13,7 +13,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 3px, solid, var(--rps-color-2);
+  border: 3px solid var(--rps-color-2);
   border-radius: 10px;
   padding: var(--rps-padding-xxs) var(--rps-padding-xs);
   margin-bottom: var(--rps-margin-xs);
