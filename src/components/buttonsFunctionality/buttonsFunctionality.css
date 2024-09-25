@@ -93,8 +93,8 @@
   }
 
   .buttons {
-    padding-top: var(--rps-gap-xs);
-    gap: var(--rps-gap-xs);
+    padding-top: var(--rps-gap-s);
+    gap: var(--rps-gap-s);
     flex-wrap: wrap;
     height: auto;
     width: 90%;
