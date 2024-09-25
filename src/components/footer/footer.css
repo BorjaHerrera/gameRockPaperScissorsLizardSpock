@@ -1,0 +1,23 @@
+#footer {
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin-top: var(--rps-margin-s);
+  margin-bottom: var(--rps-margin-xl);
+}
+
+/*MEDIAS QUERIES*/
+@media (max-width: 550px) {
+  #footer {
+    margin-bottom: var(--rps-margin-s);
+  }
+}
+
+@media (max-width: 370px) {
+  #footer {
+    margin-top: var(--rps-margin-m);
+  }
+  #footer {
+    margin-bottom: var(--rps-margin-m);
+  }
+}

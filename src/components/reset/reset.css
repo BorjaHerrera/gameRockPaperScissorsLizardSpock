@@ -1,0 +1,19 @@
+.reset {
+  width: 50%;
+  height: auto;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-right: 10%;
+}
+
+.reset-button {
+  font-size: 0.7rem;
+  font-weight: 500;
+  background-color: transparent;
+  padding: 10px 30px;
+  color: var(--rps-color-1);
+  border: 1px solid var(--rps-color-1);
+  border-radius: 10px;
+  cursor: pointer;
+}

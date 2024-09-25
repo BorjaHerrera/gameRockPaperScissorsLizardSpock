@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+  /* BRANDING COLORS */
+  --rps-color-1: #ffffff;
+  --rps-color-2: #3c4363;
+  --rps-color-3: #03114a;
+  --rps-bg-color: #0b192f;
+
+  /* SPACINGS */
+  --rps-margin-xxs: 5px;
+  --rps-margin-xs: 10px;
+  --rps-margin-s: 20px;
+  --rps-margin-m: 30px;
+  --rps-margin-l: 40px;
+  --rps-margin-xl: 50px;
+  --rps-margin-xxl: 100px;
+  --rps-margin-xxxl: 150px;
+  --rps-margin-xxxxl: 180px;
+
+  --rps-padding-xxs: 5px;
+  --rps-padding-xs: 10px;
+  --rps-padding-s: 20px;
+  --rps-padding-m: 30px;
+  --rps-padding-l: 40px;
+  --rps-padding-xl: 60px;
+  --rps-padding-xxl: 100px;
+  --rps-padding-xxxl: 140px;
+
+  --rps-gap-xxs: 5px;
+  --rps-gap-xs: 10px;
+  --rps-gap-s: 20px;
+  --rps-gap-m: 30px;
+  --rps-gap-l: 40px;
+  --rps-gap-xl: 50px;
+  --rps-gap-xxl: 100px;
+}
+
+* {
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  width: 100%;
+  min-height: 100svh;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#app {
+  width: 100%;
+  min-height: 100%;
+}
+
+main {
+  width: 100%;
+  min-height: 100svh;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  background-color: var(--rps-bg-color);
+}
+
+.hidden {
+  display: none;
+}

@@ -1,0 +1,9 @@
+#selector {
+  margin-top: var(--rps-margin-s);
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
