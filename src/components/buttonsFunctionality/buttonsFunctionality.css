@@ -75,18 +75,7 @@
   }
 }
 
-@media (max-width: 460px) {
-  .game-element {
-    width: 70px;
-    height: 70px;
-  }
-
-  .buttons {
-    gap: 35px;
-  }
-}
-
-@media (max-width: 420px) {
+@media (max-width: 500px) {
   .game-element {
     width: 88px;
     height: 88px;
@@ -94,7 +83,7 @@
 
   .buttons {
     padding-top: var(--rps-gap-s);
-    gap: var(--rps-gap-s);
+    gap: var(--rps-gap-m);
     flex-wrap: wrap;
     height: auto;
     width: 90%;
