@@ -1,6 +1,10 @@
+import {
+  getScoreFromLocalStorage,
+  saveScoreToLocalStorage
+} from '../utils/localStorage';
 import './updateScore.css';
 
-let SCOREPOINTS = 0;
+let SCOREPOINTS = getScoreFromLocalStorage();
 
 export const printScore = () => {
   const score = document.querySelector('#score');
@@ -22,6 +26,7 @@ export const updateScore = (points) => {
   if (SCOREPOINTS < 0) {
     SCOREPOINTS = 0;
   }
+  saveScoreToLocalStorage(SCOREPOINTS);
 
   const scorePoints = document.querySelector('#score-points');
   scorePoints.textContent = `${SCOREPOINTS}`;
@@ -29,6 +34,8 @@ export const updateScore = (points) => {
 
 export const resetScore = () => {
   SCOREPOINTS = 0;
+
+  saveScoreToLocalStorage(SCOREPOINTS);
   const scorePoints = document.querySelector('#score-points');
   scorePoints.textContent = `${SCOREPOINTS}`;
 };
