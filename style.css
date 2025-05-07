@@ -63,10 +63,11 @@ main {
   width: 100%;
   min-height: 100svh;
   display: flex;
-  justify-content: start;
+  justify-content: center;
   align-items: start;
   flex-direction: column;
   background-color: var(--rps-bg-color);
+  gap: var(--rps-gap-l);
 }
 
 .hidden {

@@ -60,27 +60,16 @@
 
 @media (max-width: 770px) {
   .game-element {
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
   }
 }
 
 @media (max-width: 550px) {
   .game-element {
-    width: 75px;
-    height: 75px;
+    width: 100px;
+    height: 100px;
   }
-  .buttons {
-    gap: var(--rps-gap-l);
-  }
-}
-
-@media (max-width: 500px) {
-  .game-element {
-    width: 88px;
-    height: 88px;
-  }
-
   .buttons {
     padding-top: var(--rps-gap-s);
     gap: var(--rps-gap-m);
@@ -92,5 +81,12 @@
   .shape-chosen-container {
     width: auto;
     height: auto;
+  }
+}
+
+@media (max-width: 400px) {
+  .game-element {
+    width: 90px;
+    height: 90px;
   }
 }
